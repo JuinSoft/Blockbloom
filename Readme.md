@@ -15,3 +15,7 @@ Blockbloom is a decentralized application (dApp) designed for generating and min
 2. Run `cargo build`
 3. Deploy the Linera application
 4. Run the frontend
+
+
+### Frontend Code
+https://github.com/JuinSoft/blockbloom-frontend
