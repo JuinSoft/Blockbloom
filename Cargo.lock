@@ -481,6 +481,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "blockbloom"
+version = "0.1.0"
+dependencies = [
+ "async-graphql 5.0.10",
+ "async-trait",
+ "bcs",
+ "futures",
+ "linera-sdk",
+ "linera-views",
+ "log",
+ "serde",
+ "serde_json",
+ "thiserror",
+ "webassembly-test",
+]
+
+[[package]]
 name = "bumpalo"
 version = "3.16.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2734,23 +2751,6 @@ name = "multimap"
 version = "0.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "defc4c55412d89136f966bbb339008b474350e5e6e78d2714439c386b3137a03"
-
-[[package]]
-name = "nft"
-version = "0.1.0"
-dependencies = [
- "async-graphql 5.0.10",
- "async-trait",
- "bcs",
- "futures",
- "linera-sdk",
- "linera-views",
- "log",
- "serde",
- "serde_json",
- "thiserror",
- "webassembly-test",
-]
 
 [[package]]
 name = "num-traits"
